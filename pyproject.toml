@@ -1,0 +1,13 @@
+[project]
+name = "resolvebot"
+version = "0.1.0"
+description = "ShopSphere customer support chat assistant (ResolveBot)"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.29",
+  "pydantic>=2.6",
+  "python-dateutil>=2.9",
+  "python-dotenv>=1.0",
+  "openai>=1.30",
+]
